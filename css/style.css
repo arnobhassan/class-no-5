@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+     width: 1140px;
+     margin: 0 auto;
+     
+
+}
+/* Header section */
+header{
+    width: 100%;
+    float: left;
+    background-color:gray;
+    padding: 20px 0px;
+}
+.logo{
+    width: 30%;
+    float: left;
+
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+    
+}
+nav ul li a: hover {
+    color:  pink;
+}
+/* Banner section*/
+.banner{
+    with:100%
+    float: left;
+    background: url(../img/bennar.jpg)no-repeat;
+    background-size: cover;
+     
+}
+.banner-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding:379px 0;
+     
+     
+
+}
+.banner-btn{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding:  14px;
+}
+ .fa-fa-chevron-down{
+     color: white;
+     margin: 0 auto;
+     display: block;
+     padding: 0px 0;
+ }
+
+.banner-main h2{
+    color: rgb(253, 253, 253);
+    font-size: 120px;
+   
+    
+     
+     
+     
+
+}
+.banner-main span{
+    border-bottom: 1px solid  rgb(0, 234, 255);
+    display: block;
+     
+     
+
+}
+.banner-btn{
+    padding:"10px 20px";
+    background: transparent;
+    border:1px solid rgb(0, 234, 255)  ;
+
+}
+.banner-main p{
+    color: cornsilk;
+    margin: 10px 0;
+    text-align: center;
+    
+
+}
+.banner-icon{
+
+}
+.fa fa-chevron-down{
+
+}
+/*peragrph section*/
+
+.peragrph{
+    background:  #f6f9f9
+   
+
+}
+.peragrph-main{
+    text-align: center;
+    margin: 0px 0;
+    padding: 55px 0;
+
+}
+.peragrph-main h2{
+    color: rgb(0, 8, 8);
+    font-size: 45px;
+
+}
+.peragrph-main p{
+    margin: 10px 0;
+    color: gray;
+
+
+}
+/*icons section*/
+.icon{
+    background-color: rgba(178, 180, 180, 0.3);
+    padding: 127px 0px;
+    
+
+}
+.icon-service{
+    margin: 0 auto;
+    padding: 0px 0px;
+    float: left;
+    text-align: center;
+    
+
+}
+.row{
+    
+   
+    grid-gap: 30px;
+    float: left;
+    text-align: center;    
+
+}
+.service{
+    float: left;
+    width: 30%;
+
+}
+/*gallery section*/
+.gallery{
+    width: 100%;
+    float: left;    
+} 
+.gallery-text h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 35px 0;
+}
+.gallery-text p{
+    text-align: center;
+    color: rgba(241, 115, 115, 0.924);
+    padding: 10px;
+}
+.gallery-content{
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+
+}
+.row{
+    width: 100%;
+    float: left;
+    margin:15px 0;
+}
+.gallery-box{
+    float: left;
+    margin-left: 40px;
+}
+.gallery-box-img{
+    width: 350px;
+    height: 250px;
+}
+ 
+ 
+/*contact section*/
+ .contact{
+     width: 100%;
+     float: left;
+     background: url(../img/contact-pic.png) no-repeat center;
+     background-size: cover;
+     padding: 160px 0;
+ }
+
+.contact h1{
+    text-align: center;
+    color: whitesmoke;
+   
+}
+.contact p{
+    text-align: center;
+
+}
+.contact-form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border:0;
+    background: rgb(210, 227, 228);
+    padding: 20px 40px;
+    outline: none;
+    color: rgba(221, 223, 222, 0.479);
+    transition: 0.5s;
+}
+.contact-form-text{
+    box-shadow: 0 0 10px 4px rgba(255, 51, 0, 0.281);
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+/*footer section*/
+.footer-section{
+    margin: 0 auto;
+    padding: 0px 0;
+}
+.copyright p{
+    width:25% ;
+    float: left;
+    padding: 25px 0;
+
+
+}
+.footer-icon{
+    width: 75%;
+    float: left;
+
+}
